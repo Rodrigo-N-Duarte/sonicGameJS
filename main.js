@@ -22,7 +22,7 @@ const gameOver = setInterval(() => {
         enemy.style.animation = 'none'
         enemy.style.right = '85%'
 
-        sonic.src = '/images/sonicGameOver.webp'
+        sonic.src = './images/sonicGameOver.webp'
         sonic.style.width = '80px'
         sonic.style.bottom = `${sonicPosition}px`
 
